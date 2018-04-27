@@ -1,0 +1,50 @@
+<ion-view>
+	<ion-heder-bar class="bar-stable">
+		<h1 class="title">HOLA QUE HACE</h1>
+		
+	</ion-heder-bar>
+	<ion-content>
+		<div>{{welcome}}</div>
+		<input type="checkbox" ng-model="Dato1"><!--- Directivas---->
+		<input type="checkbox" ng-model="Dato2">
+		
+		<h2 ng-show="Dato1">Dato: 1</h2>
+		<h2 ng-hide="Dato2">Dato: 2</h2>
+		<div class="list card">
+			<div class="item item-avatar">
+				<img src="../img/lol.jpg">
+				<h2>ole que hace</h2>
+				<p>Abril 23,2018</p>
+				
+				<div class="item item-body">
+				<img src="../img/lol.jpg" alt="" height="200px"><strong></strong>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend sodales pulvinar. Curabitur finibus ligula eget enim tincidunt, ut tempor diam varius. Integer enim arcu, fermentum vitae dui ut, sagittis eleifend augue. Vestibulum ultrices ligula eros, at dictum mi consectetur nec. Maecenas hendrerit mauris eu vestibulum tempor. Sed hendrerit condimentum scelerisque. Cras congue tincidunt magna posuere imperdiet. Suspendisse tempor erat odio, id pharetra sem pharetra ut. Integer nec lectus porta, efficitur elit tincidunt, ultricies sem. Praesent faucibus eros in odio finibus porttitor. Etiam ac facilisis arcu. Nunc in ultrices magna. Proin pellentesque eros purus, at pulvinar velit mattis ac. Curabitur orci metus, volutpat a massa vel, pellentesque interdum velit. 
+				<a href="" class="subdued">10000 likes</a>
+				<a href="" class="subdued">10 Comments</a>
+				<h2></h2>
+				<p></p>
+			</div>
+		</div>
+		
+		<ion-list show-delete="true">
+			<ion-item> bayron</ion-|item>
+			<ion-item href="#"> juliet</ion-item>
+			<ion-item href="http//:google.com"> Wilson </ion-item>
+			<ion-item> David 
+			<ion-delete-button class="ion-minus-circled" ng-click ="algo"></ion-delet-button>
+			
+			</ion-item>
+			
+		</ion-list>
+	</ion-content>
+</ion-viwe>
+<!---  algunas Directivas aplicarlas---
+ng-app
+ng-controller
+ng-model
+ng-change
+ng-click
+ng-blind
+
+
+--->

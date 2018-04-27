@@ -22,3 +22,12 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+.config(function($stateProvider){
+	$stateProvider
+	.state('Welcome',{
+		url:'',
+		templateUrl:'welcome/welcome.html',
+		controller:'welcomeCtrl'
+	});
+	
+});
